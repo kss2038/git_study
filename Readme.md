@@ -85,7 +85,7 @@ $ git checkout master # master 로 변경 (기준점)
 $ git merge <branch-name> (가지고 올 branch)
 $ git branch
 $ git log
-# confilict (non fast-forward)
+# confilict (non fast-forward) : 가져올 브랜치와 기준 브랜치에서 같은 파일이 변경되었으면 충돌났다고 
 $ git status
 # branch 삭제
 local> git branch -d <branch-name>
