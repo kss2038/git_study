@@ -79,5 +79,18 @@ $ git log
 $ 다른동료폴더> git clone <git-remote-url> OR
   다른동료폴더> git pull
 ```
+###### 작업폴더에서 master 로 merge 하기
+```github
+$ git checkout master # master 로 변경
+$ git merge <branch-name>
+$ git branch
+$ git log
+# confilict (non fast-forward)
+$ git status
+# branch 삭제
+local> git branch -d <branch-name>
+local> git branch
+remote> git push --delete origin <branch-name>
+```
 <hr>
 
