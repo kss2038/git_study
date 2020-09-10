@@ -68,6 +68,7 @@ master branch 의 내용이 변경되었는데도 먼저 pull 하지 않고, 로
 <hr>
 
 ### Git Branch ###
+###### Branch 만들기
 ```github
 $ git branch <branch-name> # branch 만들기
 $ git branch # branch 전체 보기
