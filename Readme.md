@@ -101,6 +101,8 @@ remote> git push --delete origin <branch-name> # 서버에서 삭제하고 싶�
 `git branch -r`
 ###### 양쪽 모든 브랜치 보기
 `git branch -a`
+###### Merge 전 차이 확인
+`git diff <branch-name>
 <hr>
 
 
