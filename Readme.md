@@ -88,9 +88,9 @@ $ git log
 # confilict (non fast-forward) : 가져올 브랜치와 기준 브랜치에서 같은 파일이 변경되었으면 충돌났다고 
 $ git status
 # branch 삭제
-local> git branch -d <branch-name>
+local> git branch -d <branch-name> # 로컬에서 삭제
 local> git branch
-remote> git push --delete origin <branch-name>
+remote> git push --delete origin <branch-name> # 서버에서 삭제하고 싶으면 이 코드
 ```
 <hr>
 
