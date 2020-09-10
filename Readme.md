@@ -81,8 +81,8 @@ $ 다른동료폴더> git clone <git-remote-url> OR
 ```
 ###### 작업폴더에서 master 로 merge 하기
 ```github
-$ git checkout master # master 로 변경
-$ git merge <branch-name>
+$ git checkout master # master 로 변경 (기준점)
+$ git merge <branch-name> (가지고 올 branch)
 $ git branch
 $ git log
 # confilict (non fast-forward)
