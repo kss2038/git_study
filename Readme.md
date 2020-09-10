@@ -58,3 +58,16 @@ $ git branch # 현재 존재하는 branch
 
 master branch 의 내용이 변경되었는데도 먼저 pull 하지 않고, 로컬의 내용을 덮어 쓰려면 기본적으로 서버에서 reject 을 한다.
 만약 무시하고 업로드하려면 `git push -fu origin master`를 입력하면 된다. (force 강제로 업로드 하라는 것)
+
+### Git Branch ###
+```github
+$ git branch <branch-name> # branch 만들기
+$ git branch # branch 전체 보기
+$ git checkout <branch-name> # 전환
+### 소스 수정 & add & commit ###
+$ git push origin <branch-name>
+$ git log
+$ 다른동료폴더> git clone <git-remote-url> OR
+  다른동료폴더> git pull
+```
+
