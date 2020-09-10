@@ -95,7 +95,12 @@ remote> git push --delete origin <branch-name> # 서버에서 삭제하고 싶�
 <hr>
 
 ### 팁 ###
-`git branch -r` -r을 붙이면 서버의 branch 목록을 출력할 수 있고, -r이 없으면 local 의 branch 목록을 볼 수 있다.
+###### 로컬(PC) 브랜치 보기
+`git branch`
+###### 서버(GitHub) 브랜치 보기
+`git branch -r`
+###### 양쪽 모든 브랜치 보기
+`git branch -a`
 <hr>
 
 
