@@ -109,14 +109,20 @@ git checkout -p <branch-name> <file-name> #
 ```
 <hr>
 
-### 로컬 및 리모트 서버의 폴더, 파일 삭제하기 ###
+### 파일/폴더 삭제하기 ###
+###### 로컬 및 리모트 서버의 폴더/파일 삭제하기 ###
 ```github
 $ git rm -rf {삭제하고 싶은 폴더나 파일명}
 $ git add *
 $ git commit -m {작업 내용}
 $ git push origin master
-
-# 만약에 원격에만 파일을 지우고 싶다면 아래와 같이 한다.
-$ git rm --cached {파일/폴더명}
 ```
+###### 리모트 서버의 폴더/파일 삭제하기 (로컬은 그대로) ###
+$ git rm --cached {파일/폴더명}
+$ git commit -am {작업 내용}
+$ git push origin master
+```
+<hr>
+
+
 
