@@ -118,6 +118,7 @@ $ git commit -m {작업 내용}
 $ git push origin master
 ```
 ###### 리모트 서버의 폴더/파일 삭제하기 (로컬은 그대로) ###
+```
 $ git rm --cached {파일/폴더명}
 $ git commit -am {작업 내용}
 $ git push origin master
@@ -125,6 +126,7 @@ $ git push origin master
 <hr>
 
 ### 파일명 변경 또는 파일 삭제 시 반영하는 방법
+
 파일이 수정되거나 삭제된 것은 git add 에 -u 를 붙여서 반영할 수 있다.  
 그리고 commit 할 때 -a 인자를 추가해 주면 된다.  
 ```github
